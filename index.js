@@ -7,8 +7,8 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
     return 'There is nobody waiting to be served!'
   } else {
-    var serving = katzDeliLine[0];
+    var serve = katzDeliLine[0];
     katzDeliLine.pop();
   }
-  return serving;
+  return 'Currently serving' + '' + serve;
 }
