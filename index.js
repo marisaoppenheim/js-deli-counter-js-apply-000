@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
   return 'Currently serving' + ' ' + serve + '.';
 }
 
-function currentline(katzDeliLine) {
+function currentLine(katzDeliLine) {
   var str = 'The line is currently:';
   for (var i = 0; i < katzDeliLine.length; i++) {
     var person = katzDeliLine[i];
