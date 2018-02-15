@@ -23,6 +23,9 @@ function currentLine(katzDeliLine) {
     if (i === katzDeliLine.length - 1) {
       str += ' ' + (i + 1) + '.' + ' ' + person;
     }
+    if (katzDeliLine.length === 0) {
+      return 'The line is currently empty.'
+    }
   }
   return str;
 }
