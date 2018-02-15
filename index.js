@@ -19,4 +19,5 @@ function currentLine(katzDeliLine) {
     var person = katzDeliLine[i];
     str += ' ' + (i + 1) + '.' + ' '
   }
+  return str;
 }
