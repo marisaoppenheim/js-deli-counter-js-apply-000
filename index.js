@@ -19,7 +19,7 @@ function currentLine(katzDeliLine) {
     var person = katzDeliLine[i];
     if (i < katzDeliLine.length - 1) {
     str += ' ' + (i + 1) + '.' + ' ' + person + ',';
-    } 
+    }
     if (i === katzDeliLine.length - 1) {
       str += ' ' + (i + 1) + '.' + ' ' + person;
     }
