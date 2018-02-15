@@ -17,7 +17,12 @@ function currentLine(katzDeliLine) {
   var str = 'The line is currently:';
   for (var i = 0; i < katzDeliLine.length; i++) {
     var person = katzDeliLine[i];
+    if (i < katzDeliLine.length - 1) {
     str += ' ' + (i + 1) + '.' + ' ' + person + ',';
+    } 
+    if (i === katzDeliLine.length - 1) {
+      str += ' ' + (i + 1) + '.' + ' ' + person;
+    }
   }
   return str;
 }
